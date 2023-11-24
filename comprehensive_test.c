@@ -9,9 +9,11 @@ int main(void){
             printf("%d \n", num);
         }
     }
+    int  num = 26;
     while(num <= 50){
         if(num % 3 == 0){
             printf("%dは3で割り切れます。", num);
+            num++;
         }
     }
 
